@@ -32,6 +32,7 @@ namespace WebAPI
             //AOP
             //Autofac , Ninject , CastleWindsor ,StructureMap ,LightInject ,DryInject --> IoC Container
             //AOP
+            //Postsharp
             services.AddControllers();
             services.AddSingleton<IProductService,ProductManager>();//Ýçerisinde data tutmuyorsak singleton kullanýn.
             services.AddSingleton<IProductDal, EfProductDal>();
