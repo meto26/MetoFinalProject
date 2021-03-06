@@ -19,7 +19,7 @@ namespace Business.Concrete
         public ProductManager(IProductDal productDal)
         {
             _productDal = productDal;
-        }
+        }          
         public IResult Add(Product product)
         {
             //business codes
